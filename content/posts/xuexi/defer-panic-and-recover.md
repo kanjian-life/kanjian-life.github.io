@@ -4,7 +4,7 @@ description = ""
 toc = true
 authors = []
 tags = []
-categories = []
+categories = ["官方博客翻译"]
 series = ["Goalng学习"]
 date =  "2021-02-26T15:37:48+08:00"
 lastmod = "2021-02-26T15:37:48+08:00"
@@ -123,3 +123,5 @@ panic: 4
 panic PC=0x2a9cd8
 [stack trace omitted]
 ```
+
+[1] https://blog.golang.org/defer-panic-and-recover
