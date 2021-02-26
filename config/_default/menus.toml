@@ -1,0 +1,9 @@
+[[main]]
+  name = "博客"
+  url = "/posts/"
+  weight = 2
+
+[[main]]
+  name = "文档"
+  url = "/docs/"
+  weight = 3
