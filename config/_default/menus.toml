@@ -3,6 +3,11 @@
   url = "/tags/没用的知识/"
   weight = 2
 
+[[main]]
+  name = "废纸篓"
+  url = "/series/废纸篓/"
+  weight = 3
+
 # [[main]]
 #   name = "文档"
 #   url = "/docs/"
