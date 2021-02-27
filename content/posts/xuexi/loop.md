@@ -54,6 +54,18 @@ for i := 0; i < 10; i++ {
 }
 ```
 
+3. goto
+```go
+for i := 0; i < 10; i++ {
+    if i % 2 !=0 {
+        goto end
+    }
+    fmt.Println(i)
+}
+
+end:
+fmt.Println("end")
+```
 ### 4. slice遍历
 
 ```go
