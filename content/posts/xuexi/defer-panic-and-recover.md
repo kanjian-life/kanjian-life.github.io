@@ -3,7 +3,7 @@ title = "Defer, Panic, and Recover"
 description = ""
 toc = true
 authors = []
-tags = []
+tags = ["没用的知识"]
 categories = ["官方博客翻译"]
 series = ["Goalng学习"]
 date =  "2021-02-26T15:37:48+08:00"
@@ -12,7 +12,9 @@ featuredImage = ""
 draft = false
 +++
 
-## defer语句有以下三条简单的规则。
+## 1. defer
+
+语句有以下三条简单的规则。
 
 ### 1. 在defer语句调用的地方，参数值是取得defer语句执行的值
 
@@ -53,9 +55,9 @@ func c() {
 
 panic是一个中断正常控制流并且开始 <em>panicking</em> 的内置函数。当函数F调用panic，函数F的执行被中断，所有已经被压入defer栈的行数正常执行，随后F将程序控制权还给调用者。对于调用者来说，调用F就相当于调用了panic。这个流程一直运行到当前协程（goroutine）函数调用栈中所以函数都已返回为止，这个时候程序崩溃了。除了在代码里直接调用外，像数组越界等运行时异常也可以引起Panics。
 
-## 3. Recover
+## 3. recover
 
-Recover是一个重新获得panicking goroutine控制权的内置函数。Recover只在defer的函数里面才有用，在函数正常执行的过程中调用recover，recover将会返回nil值，并且没有任何效果。如果当前goroutine在panicking，调用recover会捕获panic的参数，并且继续正常的执行。
+recover是一个重新获得panicking goroutine控制权的内置函数。Recover只在defer的函数里面才有用，在函数正常执行的过程中调用recover，recover将会返回nil值，并且没有任何效果。如果当前goroutine在panicking，调用recover会捕获panic的参数，并且继续正常的执行。
 
 下面的例子演示panic和defer的用法
 ```go

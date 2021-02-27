@@ -1,6 +1,6 @@
 [[main]]
-  name = "博客"
-  url = "/posts/"
+  name = "没用的知识"
+  url = "/tags/没用的知识/"
   weight = 2
 
 [[main]]

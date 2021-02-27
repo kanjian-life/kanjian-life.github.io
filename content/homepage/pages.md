@@ -1,5 +1,5 @@
 +++
-title = "Pages"
+title = "最新文章"
 weight = 2
 draft = false
 
@@ -8,7 +8,7 @@ section = "posts"
 # Pages count
 count = 5
 # Options: card, plain and masonry.
-style = "plain"
+style = "card"
 
 [widget]
   handler = "pages"
