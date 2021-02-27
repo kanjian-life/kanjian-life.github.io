@@ -3,7 +3,7 @@
   url = "/tags/没用的知识/"
   weight = 2
 
-[[main]]
-  name = "文档"
-  url = "/docs/"
-  weight = 3
+# [[main]]
+#   name = "文档"
+#   url = "/docs/"
+#   weight = 3
