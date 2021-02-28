@@ -9,7 +9,7 @@ series = ["废纸篓"]
 date =  "2021-02-27T11:24:48+08:00"
 lastmod = "2021-02-27T11:24:48+08:00"
 featuredImage = ""
-draft = false
+draft = true
 +++
 
 ![爱莲说](/images/shouxie/ailianshuo.png)
